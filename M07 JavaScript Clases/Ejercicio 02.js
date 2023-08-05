@@ -18,11 +18,9 @@ class Persona {
          apellido: this.apellido,
          edad: this.edad,
          domicilio: this.domicilio
-      };
-      
+      };  
       return detalleObjeto;
    }
-
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, domicilio) {
@@ -30,11 +28,8 @@ function crearInstanciaPersona(nombre, apellido, edad, domicilio) {
    // Recibirás las propiedades por parámetro.
    // Retornar la instancia creada.
    // Tu código:
-
    Persona1 = new Persona(nombre, apellido, edad, domicilio);
    return Persona1;
-
-
 }
 
 function agregarMetodo() {

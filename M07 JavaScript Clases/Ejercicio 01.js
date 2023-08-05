@@ -21,9 +21,7 @@ function crearUsuario() {
          }
       }
    }
-
    var primerUsuario = new Usuario(1, "valentina", "valentina@gmail.com", "vale");
-
    return Usuario;
 }
 
@@ -45,7 +43,6 @@ function agregarStringInvertida() {
       var separar = this.split("");
       var invertirA = separar.reverse();
       var unirA = invertirA.join("");
-      
       return unirA;
    }
 }
