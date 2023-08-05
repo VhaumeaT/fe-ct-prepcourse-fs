@@ -100,7 +100,6 @@ function verificarPassword(objetoUsuario, password) {
 
     if (objetoUsuario["password"] == password) {
         return true;
-
     } else {
         return false;
     }
